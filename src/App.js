@@ -13,6 +13,8 @@ class App extends Component {
       birls: [],
       searchFiled: ''
     };
+
+    
   }
   // Life-cycle
   componentDidMount() {
@@ -22,6 +24,10 @@ class App extends Component {
 
   }
 
+  handleChange = e => {
+    this.setState({ searchFiled: e.target.value })
+  };
+
   render(){
     const { birls, searchFiled } = this.state;
     const filteredBirls = birls.filter(birl => 
@@ -29,10 +35,10 @@ class App extends Component {
       );
     return(
       <div className="App">
-        
+        <h1>Birl</h1>
         <SearchBox 
           placeholder="Search name" 
-          handleChange={e => this.setState({ searchFiled: e.target.value })}
+          handleChange={this.handleChange}
         />
         <CardList birls={ filteredBirls } />
        
