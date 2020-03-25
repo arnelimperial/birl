@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/birl/static/css/main.d5e65baa.chunk.css",
+    "main.js": "/birl/static/js/main.aa3b5d86.chunk.js",
+    "main.js.map": "/birl/static/js/main.aa3b5d86.chunk.js.map",
+    "runtime-main.js": "/birl/static/js/runtime-main.2007e1e3.js",
+    "runtime-main.js.map": "/birl/static/js/runtime-main.2007e1e3.js.map",
+    "static/js/2.c3618d9a.chunk.js": "/birl/static/js/2.c3618d9a.chunk.js",
+    "static/js/2.c3618d9a.chunk.js.map": "/birl/static/js/2.c3618d9a.chunk.js.map",
+    "index.html": "/birl/index.html",
+    "precache-manifest.284a90e8986d045a308356c7436e579c.js": "/birl/precache-manifest.284a90e8986d045a308356c7436e579c.js",
+    "service-worker.js": "/birl/service-worker.js",
+    "static/css/main.d5e65baa.chunk.css.map": "/birl/static/css/main.d5e65baa.chunk.css.map",
+    "static/js/2.c3618d9a.chunk.js.LICENSE.txt": "/birl/static/js/2.c3618d9a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2007e1e3.js",
+    "static/js/2.c3618d9a.chunk.js",
+    "static/css/main.d5e65baa.chunk.css",
+    "static/js/main.aa3b5d86.chunk.js"
+  ]
+}
